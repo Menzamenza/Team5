@@ -1,0 +1,36 @@
+.centered-form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh; 
+   
+}
+body{
+    font-family:  'Constantia', serif;
+    font-size: 1.2em;
+    color: #574214;
+    background: linear-gradient(#c8ad7f,#fff);
+}
+.submit1{
+    width: 130px;
+    border-radius: 30px;
+    padding: 5px;
+    background: linear-gradient(#c8ad7f, #fff);
+}
+.sbmt1{
+    color: #574214;
+}
+h2{
+    text-align: center;
+}
+a{
+    color:#5f4927;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.form-control:focus{
+    border-color: #5f5e37; 
+    box-shadow: none;
+}
+
+

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:url(logo.jpg) ;
+    flex-wrap: wrap;
+    
+}
+body{
+    font-family: 'Constantia', serif;
+    color: #fff;
+    font-size: 1.2em;
+}
+.btn{
+    width: 130px;
+    border-radius: 30px;
+    padding: 5px;
+    background: #c8ad7f;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1em;
+}
+.form-control:focus{
+    border-color: #5f5e37; 
+    box-shadow: none;
+}
+.form-control{
+    border: none;
+}
+
+
